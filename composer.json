@@ -1,7 +1,7 @@
 {
     "name": "broadway/coding-standard",
     "description": "The coding standard of the Broadway project.",
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,5 +9,8 @@
             "email": "othillo@othillo.nl"
         }
     ],
-    "require": {}
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "malukenho/docheader": "^0.1.7"
+    }
 }
