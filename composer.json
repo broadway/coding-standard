@@ -1,0 +1,13 @@
+{
+    "name": "broadway/coding-standard",
+    "description": "The coding standard of the Broadway project.",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "othillo",
+            "email": "othillo@othillo.nl"
+        }
+    ],
+    "require": {}
+}
