@@ -13,5 +13,10 @@
         "friendsofphp/php-cs-fixer": "^2.0",
         "malukenho/docheader": "^0.1.7",
         "php": ">=7.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
     }
 }
