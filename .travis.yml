@@ -1,0 +1,17 @@
+language: php
+
+cache:
+    directories:
+        - $HOME/.composer/cache
+        - vendor
+
+php:
+  - 7.3
+  - 7.4
+  - 8.0
+
+install:
+  - make dependencies
+
+script:
+  - make php-cs-fixer-ci
