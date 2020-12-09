@@ -10,7 +10,7 @@ php-cs-fixer:
 
 .PHONY: php-cs-fixer-ci
 php-cs-fixer-ci:
-	vendor/bin/php-cs-fixer fix --dry-run --no-interaction --allow-risky=yes --diff --verbose .php_cs.dist
+	PHP_CS_FIXER_IGNORE_ENV=1 vendor/bin/php-cs-fixer fix --dry-run --no-interaction --allow-risky=yes --diff --verbose .php_cs.dist
 
 # Based on https://suva.sh/posts/well-documented-makefiles/
 help:  ## Display this help
