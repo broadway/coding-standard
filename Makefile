@@ -6,11 +6,11 @@ dependencies:
 
 .PHONY: php-cs-fixer
 php-cs-fixer:
-	vendor/bin/php-cs-fixer fix --no-interaction --allow-risky=yes --diff --verbose .php_cs.dist
+	vendor/bin/php-cs-fixer fix --no-interaction --allow-risky=yes --diff --verbose .php-cs-fixer.dist.php
 
 .PHONY: php-cs-fixer-ci
 php-cs-fixer-ci:
-	PHP_CS_FIXER_IGNORE_ENV=1 vendor/bin/php-cs-fixer fix --dry-run --no-interaction --allow-risky=yes --diff --verbose .php_cs.dist
+	PHP_CS_FIXER_IGNORE_ENV=1 vendor/bin/php-cs-fixer fix --dry-run --no-interaction --allow-risky=yes --diff --verbose .php-cs-fixer.dist.php
 
 # Based on https://suva.sh/posts/well-documented-makefiles/
 help:  ## Display this help
