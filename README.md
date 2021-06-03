@@ -13,14 +13,14 @@ $ composer require --dev broadway/coding-standard
 
 ## PHP CS fixer
 
-1. create a `.php_cs` file referencing the `.php_cs.dist` template:
+1. create a `.php-cs-fixer.php` file referencing the `.php-cs-fixer.dist.php` template:
 
 ```php
-# .php_cs
+# .php-cs-fixer.php
 
 <?php
 
-$config = require 'vendor/broadway/coding-standard/.php_cs.dist';
+$config = require 'vendor/broadway/coding-standard/.php-cs-fixer.dist.php';
 
 $config->setFinder(
     \PhpCsFixer\Finder::create()
@@ -49,6 +49,6 @@ cp vendor/broadway/coding-standard/.docheader.dist ./.docheader
 # Usage
 
 ```
-$ vendor/bin/php-cs-fixer fix --config=".php_cs" --allow-risky=yes --diff --verbose
+$ vendor/bin/php-cs-fixer fix --allow-risky=yes --diff --verbose
 $ vendor/bin/docheader check {src,test}
 ```
