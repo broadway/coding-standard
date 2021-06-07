@@ -3,6 +3,8 @@ broadway/coding-standard
 
 The coding standard of the Broadway project.
 
+![build status](https://github.com/broadway/coding-standard/actions/workflows/ci.yml/badge.svg)
+
 # Installation
 
 ```
