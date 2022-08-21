@@ -11,7 +11,7 @@
     ],
     "require": {
         "friendsofphp/php-cs-fixer": "^3.0",
-        "malukenho/docheader": "^0.1.7",
+        "malukenho/docheader": "^0.1.7|1.0",
         "php": ">=7.3"
     },
     "extra": {
